@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.increase-button, .decrease-button {
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28a745; /* Verde para Increase */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.decrease-button {
+    background-color: #dc3545; /* Rojo para Decrease */
+}
+
+.increase-button:hover, .decrease-button:hover {
+    background-color: #218838; /* Verde oscuro para Increase */
+}
+
+.decrease-button:hover {
+    background-color: #c82333; /* Rojo oscuro para Decrease */
+}
